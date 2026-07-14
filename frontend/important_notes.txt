@@ -1,0 +1,18 @@
+📝 IMPORTANT NOTES:
+Shadcn UI Components: This code uses Shadcn components from /frontend/src/components/ui/. You need to ensure these components exist (button, card, input, textarea, label, etc.)
+
+Install Dependencies:
+
+# Frontend
+cd frontend
+yarn install
+yarn start
+
+# Backend
+cd backend
+pip install -r requirements.txt
+uvicorn server:app --reload --host 0.0.0.0 --port 8001
+MongoDB: Make sure MongoDB is running locally or update the MONGO_URL in backend/.env
+
+Environment Variables: Update the REACT_APP_BACKEND_URL in frontend/.env to match your backend URL
+
